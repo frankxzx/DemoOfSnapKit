@@ -13,6 +13,19 @@
 		88FB337B1B1D98CB004A4174 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FB337A1B1D98CB004A4174 /* Images.xcassets */; };
 		88FB337E1B1D98CB004A4174 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88FB337C1B1D98CB004A4174 /* LaunchScreen.xib */; };
 		88FB338A1B1D98CB004A4174 /* DemoOfSnapKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB33891B1D98CB004A4174 /* DemoOfSnapKitTests.swift */; };
+		88FB33A21B1D9903004A4174 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB33941B1D9903004A4174 /* Constraint.swift */; };
+		88FB33A31B1D9903004A4174 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB33951B1D9903004A4174 /* ConstraintAttributes.swift */; };
+		88FB33A41B1D9903004A4174 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB33961B1D9903004A4174 /* ConstraintDescription.swift */; };
+		88FB33A51B1D9903004A4174 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB33971B1D9903004A4174 /* ConstraintItem.swift */; };
+		88FB33A61B1D9903004A4174 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB33981B1D9903004A4174 /* ConstraintMaker.swift */; };
+		88FB33A71B1D9903004A4174 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB33991B1D9903004A4174 /* ConstraintRelation.swift */; };
+		88FB33A81B1D9903004A4174 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB339A1B1D9903004A4174 /* Debugging.swift */; };
+		88FB33A91B1D9903004A4174 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB339B1B1D9903004A4174 /* EdgeInsets.swift */; };
+		88FB33AA1B1D9903004A4174 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88FB339C1B1D9903004A4174 /* Info.plist */; };
+		88FB33AB1B1D9903004A4174 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB339D1B1D9903004A4174 /* LayoutConstraint.swift */; };
+		88FB33AC1B1D9903004A4174 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB339F1B1D9903004A4174 /* SnapKit.swift */; };
+		88FB33AD1B1D9903004A4174 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB33A01B1D9903004A4174 /* View+SnapKit.swift */; };
+		88FB33AE1B1D9903004A4174 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB33A11B1D9903004A4174 /* ViewController+SnapKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,20 @@
 		88FB33831B1D98CB004A4174 /* DemoOfSnapKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoOfSnapKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88FB33881B1D98CB004A4174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88FB33891B1D98CB004A4174 /* DemoOfSnapKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoOfSnapKitTests.swift; sourceTree = "<group>"; };
+		88FB33941B1D9903004A4174 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		88FB33951B1D9903004A4174 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		88FB33961B1D9903004A4174 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		88FB33971B1D9903004A4174 /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		88FB33981B1D9903004A4174 /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		88FB33991B1D9903004A4174 /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		88FB339A1B1D9903004A4174 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		88FB339B1B1D9903004A4174 /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		88FB339C1B1D9903004A4174 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88FB339D1B1D9903004A4174 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		88FB339E1B1D9903004A4174 /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
+		88FB339F1B1D9903004A4174 /* SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKit.swift; sourceTree = "<group>"; };
+		88FB33A01B1D9903004A4174 /* View+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+SnapKit.swift"; sourceTree = "<group>"; };
+		88FB33A11B1D9903004A4174 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+SnapKit.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +104,7 @@
 		88FB33701B1D98CB004A4174 /* DemoOfSnapKit */ = {
 			isa = PBXGroup;
 			children = (
+				88FB33931B1D9903004A4174 /* Snap */,
 				88FB33731B1D98CB004A4174 /* AppDelegate.swift */,
 				88FB33751B1D98CB004A4174 /* ViewController.swift */,
 				88FB33771B1D98CB004A4174 /* Main.storyboard */,
@@ -110,6 +138,27 @@
 				88FB33881B1D98CB004A4174 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88FB33931B1D9903004A4174 /* Snap */ = {
+			isa = PBXGroup;
+			children = (
+				88FB33941B1D9903004A4174 /* Constraint.swift */,
+				88FB33951B1D9903004A4174 /* ConstraintAttributes.swift */,
+				88FB33961B1D9903004A4174 /* ConstraintDescription.swift */,
+				88FB33971B1D9903004A4174 /* ConstraintItem.swift */,
+				88FB33981B1D9903004A4174 /* ConstraintMaker.swift */,
+				88FB33991B1D9903004A4174 /* ConstraintRelation.swift */,
+				88FB339A1B1D9903004A4174 /* Debugging.swift */,
+				88FB339B1B1D9903004A4174 /* EdgeInsets.swift */,
+				88FB339C1B1D9903004A4174 /* Info.plist */,
+				88FB339D1B1D9903004A4174 /* LayoutConstraint.swift */,
+				88FB339E1B1D9903004A4174 /* SnapKit.h */,
+				88FB339F1B1D9903004A4174 /* SnapKit.swift */,
+				88FB33A01B1D9903004A4174 /* View+SnapKit.swift */,
+				88FB33A11B1D9903004A4174 /* ViewController+SnapKit.swift */,
+			);
+			path = Snap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88FB33AA1B1D9903004A4174 /* Info.plist in Resources */,
 				88FB33791B1D98CB004A4174 /* Main.storyboard in Resources */,
 				88FB337E1B1D98CB004A4174 /* LaunchScreen.xib in Resources */,
 				88FB337B1B1D98CB004A4174 /* Images.xcassets in Resources */,
@@ -212,8 +262,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88FB33A21B1D9903004A4174 /* Constraint.swift in Sources */,
+				88FB33AB1B1D9903004A4174 /* LayoutConstraint.swift in Sources */,
+				88FB33A81B1D9903004A4174 /* Debugging.swift in Sources */,
+				88FB33A91B1D9903004A4174 /* EdgeInsets.swift in Sources */,
+				88FB33A31B1D9903004A4174 /* ConstraintAttributes.swift in Sources */,
+				88FB33A61B1D9903004A4174 /* ConstraintMaker.swift in Sources */,
 				88FB33761B1D98CB004A4174 /* ViewController.swift in Sources */,
+				88FB33AE1B1D9903004A4174 /* ViewController+SnapKit.swift in Sources */,
 				88FB33741B1D98CB004A4174 /* AppDelegate.swift in Sources */,
+				88FB33A41B1D9903004A4174 /* ConstraintDescription.swift in Sources */,
+				88FB33A71B1D9903004A4174 /* ConstraintRelation.swift in Sources */,
+				88FB33AC1B1D9903004A4174 /* SnapKit.swift in Sources */,
+				88FB33A51B1D9903004A4174 /* ConstraintItem.swift in Sources */,
+				88FB33AD1B1D9903004A4174 /* View+SnapKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

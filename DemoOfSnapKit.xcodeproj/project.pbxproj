@@ -14,6 +14,17 @@
 		88FB337E1B1D98CB004A4174 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88FB337C1B1D98CB004A4174 /* LaunchScreen.xib */; };
 		88FB338A1B1D98CB004A4174 /* DemoOfSnapKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB33891B1D98CB004A4174 /* DemoOfSnapKitTests.swift */; };
 		AA24C29A57CF83C8DC739DAC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E24E850EAAC7B61292B21C1 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FA28435D1B256C9B00E1B590 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28435C1B256C9B00E1B590 /* LoginVC.swift */; };
+		FA28435F1B256CAF00E1B590 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28435E1B256CAF00E1B590 /* AboutVC.swift */; };
+		FA2843611B256CC400E1B590 /* ProjectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2843601B256CC400E1B590 /* ProjectVC.swift */; };
+		FA2843631B256CD400E1B590 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2843621B256CD400E1B590 /* ProductVC.swift */; };
+		FA2843651B256CEE00E1B590 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2843641B256CEE00E1B590 /* VideoVC.swift */; };
+		FA2843741B256D7600E1B590 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FA28436C1B256D7600E1B590 /* MMDrawerBarButtonItem.m */; };
+		FA2843751B256D7600E1B590 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA28436F1B256D7600E1B590 /* MMDrawerController.m */; };
+		FA2843761B256D7600E1B590 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2843711B256D7600E1B590 /* MMDrawerVisualState.m */; };
+		FA2843771B256D7600E1B590 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2843731B256D7600E1B590 /* UIViewController+MMDrawerController.m */; };
+		FA28437B1B256D9600E1B590 /* UIView+Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = FA28437A1B256D9600E1B590 /* UIView+Facade.m */; };
+		FAD3CE6C1B25680800B13A53 /* ConnectUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3CE6B1B25680800B13A53 /* ConnectUsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,24 @@
 		88FB33831B1D98CB004A4174 /* DemoOfSnapKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoOfSnapKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88FB33881B1D98CB004A4174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88FB33891B1D98CB004A4174 /* DemoOfSnapKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoOfSnapKitTests.swift; sourceTree = "<group>"; };
+		FA28435C1B256C9B00E1B590 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FA28435E1B256CAF00E1B590 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		FA2843601B256CC400E1B590 /* ProjectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectVC.swift; sourceTree = "<group>"; };
+		FA2843621B256CD400E1B590 /* ProductVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
+		FA2843641B256CEE00E1B590 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		FA2843661B256D4E00E1B590 /* DemoOfSnapKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoOfSnapKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA28436B1B256D7600E1B590 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		FA28436C1B256D7600E1B590 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		FA28436D1B256D7600E1B590 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		FA28436E1B256D7600E1B590 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		FA28436F1B256D7600E1B590 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		FA2843701B256D7600E1B590 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		FA2843711B256D7600E1B590 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		FA2843721B256D7600E1B590 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		FA2843731B256D7600E1B590 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		FA2843791B256D9600E1B590 /* UIView+Facade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Facade.h"; sourceTree = "<group>"; };
+		FA28437A1B256D9600E1B590 /* UIView+Facade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Facade.m"; sourceTree = "<group>"; };
+		FAD3CE6B1B25680800B13A53 /* ConnectUsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectUsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +132,17 @@
 			children = (
 				88FB33731B1D98CB004A4174 /* AppDelegate.swift */,
 				88FB33751B1D98CB004A4174 /* ViewController.swift */,
+				FAD3CE6B1B25680800B13A53 /* ConnectUsVC.swift */,
+				FA28435C1B256C9B00E1B590 /* LoginVC.swift */,
+				FA28435E1B256CAF00E1B590 /* AboutVC.swift */,
+				FA2843601B256CC400E1B590 /* ProjectVC.swift */,
+				FA2843621B256CD400E1B590 /* ProductVC.swift */,
+				FA2843641B256CEE00E1B590 /* VideoVC.swift */,
 				88FB33771B1D98CB004A4174 /* Main.storyboard */,
 				88FB337A1B1D98CB004A4174 /* Images.xcassets */,
 				88FB337C1B1D98CB004A4174 /* LaunchScreen.xib */,
 				88FB33711B1D98CB004A4174 /* Supporting Files */,
+				FA2843661B256D4E00E1B590 /* DemoOfSnapKit-Bridging-Header.h */,
 			);
 			path = DemoOfSnapKit;
 			sourceTree = "<group>";
@@ -114,6 +150,8 @@
 		88FB33711B1D98CB004A4174 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA2843781B256D9600E1B590 /* Facade */,
+				FA28436A1B256D7600E1B590 /* MMDrawerController */,
 				88FB33721B1D98CB004A4174 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -134,6 +172,31 @@
 				88FB33881B1D98CB004A4174 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA28436A1B256D7600E1B590 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				FA28436B1B256D7600E1B590 /* MMDrawerBarButtonItem.h */,
+				FA28436C1B256D7600E1B590 /* MMDrawerBarButtonItem.m */,
+				FA28436D1B256D7600E1B590 /* MMDrawerController+Subclass.h */,
+				FA28436E1B256D7600E1B590 /* MMDrawerController.h */,
+				FA28436F1B256D7600E1B590 /* MMDrawerController.m */,
+				FA2843701B256D7600E1B590 /* MMDrawerVisualState.h */,
+				FA2843711B256D7600E1B590 /* MMDrawerVisualState.m */,
+				FA2843721B256D7600E1B590 /* UIViewController+MMDrawerController.h */,
+				FA2843731B256D7600E1B590 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		FA2843781B256D9600E1B590 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				FA2843791B256D9600E1B590 /* UIView+Facade.h */,
+				FA28437A1B256D9600E1B590 /* UIView+Facade.m */,
+			);
+			path = Facade;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +350,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2843651B256CEE00E1B590 /* VideoVC.swift in Sources */,
 				88FB33761B1D98CB004A4174 /* ViewController.swift in Sources */,
+				FA2843761B256D7600E1B590 /* MMDrawerVisualState.m in Sources */,
+				FA2843771B256D7600E1B590 /* UIViewController+MMDrawerController.m in Sources */,
+				FA2843631B256CD400E1B590 /* ProductVC.swift in Sources */,
+				FA28435F1B256CAF00E1B590 /* AboutVC.swift in Sources */,
+				FA2843741B256D7600E1B590 /* MMDrawerBarButtonItem.m in Sources */,
+				FA28437B1B256D9600E1B590 /* UIView+Facade.m in Sources */,
+				FAD3CE6C1B25680800B13A53 /* ConnectUsVC.swift in Sources */,
+				FA2843751B256D7600E1B590 /* MMDrawerController.m in Sources */,
+				FA28435D1B256C9B00E1B590 /* LoginVC.swift in Sources */,
+				FA2843611B256CC400E1B590 /* ProjectVC.swift in Sources */,
 				88FB33741B1D98CB004A4174 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,9 +490,13 @@
 			baseConfigurationReference = 44078A7A2011C38AC7D05CDC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DemoOfSnapKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoOfSnapKit/DemoOfSnapKit-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "DemoOfSnapKit/DemoOfSnapKit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -427,9 +505,11 @@
 			baseConfigurationReference = 632954BDAF30EDCF7AD2423B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DemoOfSnapKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoOfSnapKit/DemoOfSnapKit-Bridging-Header.h";
 			};
 			name = Release;
 		};

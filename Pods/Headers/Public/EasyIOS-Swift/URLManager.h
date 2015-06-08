@@ -1,0 +1,1 @@
+../../../EasyIOS-Swift/Pod/Classes/Extend/URLManager/URLManager.h

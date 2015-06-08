@@ -49,9 +49,21 @@ code_sign() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Alamofire.framework'
+  install_framework 'Bond.framework'
+  install_framework 'EasyIOS.framework'
+  install_framework 'Haneke.framework'
+  install_framework 'Kingfisher.framework'
+  install_framework 'ObjectMapper.framework'
   install_framework 'SnapKit.framework'
+  install_framework 'TTTAttributedLabel.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Alamofire.framework'
+  install_framework 'Bond.framework'
+  install_framework 'EasyIOS.framework'
+  install_framework 'Haneke.framework'
+  install_framework 'Kingfisher.framework'
+  install_framework 'ObjectMapper.framework'
   install_framework 'SnapKit.framework'
+  install_framework 'TTTAttributedLabel.framework'
 fi

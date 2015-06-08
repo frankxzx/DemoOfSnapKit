@@ -9,7 +9,42 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Bond.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-EasyIOS-Swift-EasyIOS-Swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-EasyIOS-Swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HanekeSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Kingfisher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TTTAttributedLabel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +57,52 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7E65D192D6B1ECF3A74584C4</key>
+		<key>0149C602430CECEB17F3D374</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9FEE9A464CE9D35EBDC82D26</key>
+		<key>0839CA74D29F564EDC72A7E1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AD285F99D8CE7745497AA53A</key>
+		<key>1B4139D8CA98FDE9677AD5A6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2A06F8850461BA5895250835</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70C5B60AC5B5364B9236310D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>78A665B8E17EDE5DB047CA8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A30BAB38FF35D593AAD9E09</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E3276452D5A51A67887B2A57</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E4245AC5C19286B2617622DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5DFBDF5E56315AE8AF32EE9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

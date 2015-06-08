@@ -1,0 +1,1 @@
+../../../EasyIOS-Swift/Pod/Classes/Private/Gumbo/vector.h
